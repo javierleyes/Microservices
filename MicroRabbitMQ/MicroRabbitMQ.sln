@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbitMQ.Domain.Core", "MicroRabbitMQ.Domain.Core\MicroRabbitMQ.Domain.Core.csproj", "{B6384A26-60FB-47A2-8EB8-DF1F17254278}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{FC909AF5-4E82-4314-B44F-D255A9B0234A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{FC909AF5-4E82-4314-B44F-D255A9B0234A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbitMQ.Infra.IoC", "MicroRabbitMQ.Infra.IoC\MicroRabbitMQ.Infra.IoC.csproj", "{8389FA6E-443A-4919-9584-D003010C8117}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{FC909AF5-4E82-4314-B44F-D255A9B0234A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC909AF5-4E82-4314-B44F-D255A9B0234A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC909AF5-4E82-4314-B44F-D255A9B0234A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8389FA6E-443A-4919-9584-D003010C8117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8389FA6E-443A-4919-9584-D003010C8117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8389FA6E-443A-4919-9584-D003010C8117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8389FA6E-443A-4919-9584-D003010C8117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B6384A26-60FB-47A2-8EB8-DF1F17254278} = {C14ACF3D-1692-4508-BD17-508DC7F09EB5}
 		{FC909AF5-4E82-4314-B44F-D255A9B0234A} = {EB2BDBE1-BF79-42BF-8353-67DC0B4F2C4B}
+		{8389FA6E-443A-4919-9584-D003010C8117} = {758E17EC-EE57-4104-9EAB-050A68A7F106}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FA19553-C165-4C67-8344-062D419C2589}
